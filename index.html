@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>University Open Day</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="backdrop"></div>
+
+        <!-- Home Screen -->
+        <div class="screen home-screen active">
+            <div class="head-wrapper">
+                <div class="menu-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
+                    </svg>
+                </div>
+                <h2 style="color: white; margin-top: 5vh;">University of Wolverhampton</h2>
+                <div class="welcome">
+                    <div class="content">
+                        <h1> Open Day</h1>
+                        <h1>2025</h1>
+                    </div>
+                </div>
+            </div>
+            <button class="startbtn">Start</button>
+        </div>
+
+        <!-- Category Screen -->
+        <div class="screen category-screen">
+            <div class="head-wrapper">
+                <button class="back-btn">← Back</button>
+            </div>
+            <div class="categories-wrapper">
+                <div class="categories">
+                    <button class="class1 category">Events</button>
+                </div>
+                <div class="categories">
+                    <button class="class2 category">Courses</button>
+                </div>
+                <div class="categories">
+                    <button class="class3 category">FAQs</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Event Schedule (Category 1) -->
+        <div class="screen class1-page">
+            <div class="head-wrapper">
+                <button class="classback-btn">← Back</button>
+            </div>
+            <div class="event-container">
+                <header>
+                    <h1>University Open Day - Event Schedule</h1>
+                    <input type="text" id="search-bar" placeholder="Search events...">
+                </header>
+                <div class="event-schedule">
+                    <div class="event-row" data-time="09:30 AM">
+                        <div class="time-box">09:30 AM</div>
+                        <div class="event-box">
+                            <h3>Registration & Welcome</h3>
+                            <p>Main Reception Area - Guests register & receive welcome packs</p>
+                        </div>
+                    </div>
+                    <div class="event-row" data-time="10:30 AM">
+                        <div class="time-box">10:30 AM</div>
+                        <div class="event-box">
+                            <h3>Campus Tour</h3>
+                            <p>Starting at Reception Area - Guided tours of university facilities</p>
+                        </div>
+                    </div>
+                    <div class="event-row" data-time="12:00 PM">
+                        <div class="time-box">12:00 PM</div>
+                        <div class="event-box">
+                            <h3>Lunch Break</h3>
+                            <p>University Cafeteria - Meet staff and students while dining</p>
+                        </div>
+                    </div>
+                    <div class="event-row" data-time="02:00 PM">
+                        <div class="time-box">02:00 PM</div>
+                        <div class="event-box">
+                            <h3>Course Introduction Sessions</h3>
+                            <p>Various Lecture Theatres - Learn about courses & career prospects</p>
+                        </div>
+                    </div>
+                    <div class="event-row" data-time="04:00 PM">
+                        <div class="time-box">04:00 PM</div>
+                        <div class="event-box">
+                            <h3>Student Panel Discussion</h3>
+                            <p>Main Hall</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Courses Page -->
+        <div class="screen class2-page">
+            <div class="head-wrapper">
+                <button class="classback-btn_two">← Back</button>
+            </div>
+            <div class="classification">
+                <h1>Available Courses</h1>
+                <ul class="list">
+                    <li>
+                        <div class="card">
+                            <img src="Images\istockphoto-1702445356-612x612.jpg" alt="Avatar" style="width:100%">
+                            <div class="container">
+                                <h4><b>Computer Science</b></h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <img src="Images\images (3).jpeg" alt="Avatar" style="width:100%">
+                            <div class="container">
+                                <h4><b>Engineering</b></h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <img src="Images\images (4).jpeg" alt="Avatar" style="width:100%">
+                            <div class="container">
+                                <h4><b>Artificial Intelligence</b></h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <img src="Images\642604b850060e114dc20476_I'm Tired of Working with Patients- Now What_ 8 Non-Bedside Nursing Jobs to Consider .webp" alt="Avatar" style="width:100%">
+                            <div class="container">
+                                <h4><b>Nursing</b></h4>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- <li>BSc Computer Science</li>
+                    <li>BEng Mechanical Engineering</li>
+                    <li>BSc Artificial Intelligence</li>
+                    <li>BSc Nursing</li> -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- FAQs Page -->
+              <div class="screen class3-page">
+            <div class="head-wrapper">
+                <button class="classback-btn_three">← Back</button>
+            </div>
+            <div class="classification">
+                <h2>FAQs</h2>
+                <div class="faq">
+                    <h3>What time does the open day start?</h3>
+                    <p class="answer">It starts at 09:30 AM.</p>
+                </div>
+				 <div class="faq">
+                    <h3>Do I need to register?</h3>
+                    <p class="answer">Yes, please register online to secure your spot</p>
+                </div>
+			
+                <div class="faq">
+                    <h3>Can I bring a guest?</h3>
+                    <p class="answer">Yes, you can bring up to two guests.</p>
+                </div>
+				<div class="faq">
+                    <h3>What should I bring?</h3>
+                    <p class="answer">Bring your registration confirmation and any questions you have</p>
+                </div>
+				<div class="faq">
+                    <h3>Are refreshments provided?</h3>
+                    <p class="answer">Yes, light refreshments and lunch will be provided</p>
+                </div>
+				
+                <div class="faq">
+                    <h3>Is parking available?</h3>
+                    <p class="answer">Yes, limited parking is available on campus.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
